@@ -6,9 +6,9 @@
 
 
 
-* Lab 1.2 - Decentralized VCS Practice with Git
+* Lab 1.2 - [Decentralized VCS Practice with Git](https://github.com/Mordyfier/CISC3140/tree/master/Lab%201.2)
 
-* Lab 2.1 - Centralized VCS Practice with SVN
+* Lab 2.1 - [Centralized VCS Practice with SVN](https://github.com/Mordyfier/CISC3140/tree/master/Lab%202.1)
 
 * Lab 2.2 - Basic Data Analysis
 
