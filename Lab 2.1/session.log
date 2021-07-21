@@ -1,14 +1,4 @@
 login as: mtomala
-Pre-authentication banner message from server:
-| Access to Brooklyn College computers is restricted to authorized users
-|         and approved educational and research purposes, only.
-|  ATTENTION. YOU CAN LOG INTO THIS LINUX WORKSTATION AND OTHER LINUX WORKSTATI
-> ONS
-|  WITH THESE IP ADDRESSES: 146.245.252.25, 146.245.252.26, 146.245.252.31
-| For questions about the Linux system email me at
-| rpatitucci@brooklyn.cuny.edu
-End of banner message from server
-mtomala@146.245.252.25's password:
 Last login: Tue Jul 20 23:30:34 2021
 [mtomala@sol25 ~]$ mkdir New
 [mtomala@sol25 ~]$ ls
