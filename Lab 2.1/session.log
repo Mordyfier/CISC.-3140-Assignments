@@ -1,0 +1,152 @@
+login as: mtomala
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+|  ATTENTION. YOU CAN LOG INTO THIS LINUX WORKSTATION AND OTHER LINUX WORKSTATI
+> ONS
+|  WITH THESE IP ADDRESSES: 146.245.252.25, 146.245.252.26, 146.245.252.31
+| For questions about the Linux system email me at
+| rpatitucci@brooklyn.cuny.edu
+End of banner message from server
+mtomala@146.245.252.25's password:
+Last login: Tue Jul 20 23:30:34 2021
+[mtomala@sol25 ~]$ mkdir New
+[mtomala@sol25 ~]$ ls
+Dir  Lab2.1  New  Projects  WC  WorkingCopy
+[mtomala@sol25 ~]$ cd New
+[mtomala@sol25 New]$ svnadmin create Sample
+[mtomala@sol25 New]$ ls
+Sample
+[mtomala@sol25 New]$ mkdir SampleWorkingCopy
+[mtomala@sol25 New]$ cd *Copy
+[mtomala@sol25 SampleWorkingCopy]$ pwd
+/users1/st/mtomala/New/SampleWorkingCopy
+[mtomala@sol25 SampleWorkingCopy]$ svn co file:///users1/st/mtomala/New/Sample/
+Checked out revision 0.
+[mtomala@sol25 SampleWorkingCopy]$ ls
+Sample
+[mtomala@sol25 SampleWorkingCopy]$ cd Sample
+[mtomala@sol25 Sample]$ ls
+[mtomala@sol25 Sample]$ touch Hello.py
+[mtomala@sol25 Sample]$ vim Hello.py
+[mtomala@sol25 Sample]$ python Hello.py
+Hello
+[mtomala@sol25 Sample]$ svn add Hello.py
+A         Hello.py
+[mtomala@sol25 Sample]$ svn commit -m "Initial commit"
+Adding         Hello.py
+Transmitting file data .
+Committed revision 1.
+[mtomala@sol25 Sample]$ cd ~/New
+[mtomala@sol25 New]$ ls
+Sample  SampleWorkingCopy
+[mtomala@sol25 New]$ cd Sample
+[mtomala@sol25 Sample]$ ls
+conf  db  format  hooks  locks  README.txt
+[mtomala@sol25 Sample]$ cd ~/New
+[mtomala@sol25 New]$ cd SampleWorkingCopy
+[mtomala@sol25 SampleWorkingCopy]$ cd Sample
+[mtomala@sol25 Sample]$ vim Hello.py
+[mtomala@sol25 Sample]$ svn add Hello.py
+svn: warning: W150002: '/users1/st/mtomala/New/SampleWorkingCopy/Sample/Hello.py' is already under version control
+svn: E200009: Could not add all targets because some targets are already versioned
+svn: E200009: Illegal target for the requested operation
+[mtomala@sol25 Sample]$ svn commit -m "Extended the greeting to the whole world" Hello.py
+Sending        Hello.py
+Transmitting file data .
+Committed revision 2.
+[mtomala@sol25 Sample]$ svn co file:///users1/st/mtomala/New/Sample/
+A    Sample/Hello.py
+Checked out revision 2.
+[mtomala@sol25 Sample]$ ls
+Hello.py  Sample
+[mtomala@sol25 Sample]$ cd Sample
+[mtomala@sol25 Sample]$ ls
+Hello.py
+[mtomala@sol25 Sample]$ cat Hello.py
+print("Hello World")
+[mtomala@sol25 Sample]$ cd
+[mtomala@sol25 Sample]$ cd New
+[mtomala@sol25 New]$ ls
+Sample  SampleWorkingCopy
+[mtomala@sol25 New]$ svnadmin dump Sample
+SVN-fs-dump-format-version: 2
+
+UUID: 1a59cf0f-da59-4a56-878f-00be7c9adbf2
+
+Revision-number: 0
+Prop-content-length: 56
+Content-length: 56
+
+K 8
+svn:date
+V 27
+2021-07-21T16:16:51.455324Z
+PROPS-END
+
+* Dumped revision 0.
+Revision-number: 1
+Prop-content-length: 116
+Content-length: 116
+
+K 10
+svn:author
+V 7
+mtomala
+K 8
+svn:date
+V 27
+2021-07-21T16:21:39.764937Z
+K 7
+svn:log
+V 14
+Initial commit
+PROPS-END
+
+Node-path: Hello.py
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 16
+Text-content-md5: 3cfed71680aecfc2cb3085a3aa9e74a9
+Text-content-sha1: a915049340618ee81fedafea1e3311f3512d6083
+Content-length: 26
+
+PROPS-END
+print("Hello")
+
+
+
+* Dumped revision 1.
+Revision-number: 2
+Prop-content-length: 142
+Content-length: 142
+
+K 10
+svn:author
+V 7
+mtomala
+K 8
+svn:date
+V 27
+2021-07-21T16:24:44.252253Z
+K 7
+svn:log
+V 40
+Extended the greeting to the whole world
+PROPS-END
+
+Node-path: Hello.py
+Node-kind: file
+Node-action: change
+Text-content-length: 22
+Text-content-md5: 58d54a4ab8893da9548f9bccf6ab11f4
+Text-content-sha1: bed1aeaabb5d57d1d7c49d943fb54fa544cd3902
+Content-length: 22
+
+print("Hello World")
+
+
+
+* Dumped revision 2.
+[mtomala@sol25 New]$
