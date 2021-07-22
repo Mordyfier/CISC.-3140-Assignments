@@ -36,6 +36,6 @@ Similar to Lab 1.2 - Show the process for working with an SVN repository from th
 
 
 
-<sup>1</sup> Unlike `git init`, which initializes the current directory as a repository, `svnadmin create` creates a new directory for the repository in the current directory.
+<sup>1</sup> Unlike `git init`, which initializes the *current* directory as a repository, `svnadmin create` *creates a new directory* for the repository in the current directory.
 
 <sup>2</sup> Both Git and Subversion use `-m "message"` flag for adding a commit message
