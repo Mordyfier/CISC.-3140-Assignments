@@ -25,3 +25,7 @@ The data provided might not tell the whole story. The MovieLens database appears
 * The nature of the database (user-contributed data collected in years [1996-2018](https://files.grouplens.org/datasets/movielens/ml-latest-small-README.html)) might lead to more recent movies being overrepresented (since many younger people do not focus on older films). Older movies will need to have been of significantly higher quality to be remembered by the time the data was compiled.
 * Moreover, it is possible that the action genre suffers from some additional attribute that makes older movies less palatable for the more modern audience (for example - outdated special effects, which - while they might have been acceptable at the time - pale in comparison to what modern technology can accomplish), further reducing the likelihood that a user will remember the movie and skewing the data towards modern times.
 Another potential place for inaccuracy lies in the genre system of the data set. It is possible (and somewhat likely even), that for some of the films in the .csv file, the 'Action' label is secondary (This may or may not be reflected by the ordering in the Genre section. If the genres are indeed ordered in order of significance, this could be remedied by filtering specifically the first genre in the list.) 
+
+#### Sources
+https://grouplens.org/datasets/movielens/latest/
+https://files.grouplens.org/datasets/movielens/ml-latest-small-README.html
