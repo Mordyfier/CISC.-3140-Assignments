@@ -10,6 +10,6 @@
 
 * Lab 2.1 - [Centralized VCS Practice with SVN](https://github.com/Mordyfier/CISC3140/tree/master/Lab%202.1)
 
-* Lab 2.2 - Basic Data Analysis
+* Lab 2.2 - [Basic Data Analysis](https://github.com/Mordyfier/CISC3140/tree/master/Lab%202.2)
 
 * Lab 3.x - Coming soon!
