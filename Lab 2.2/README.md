@@ -11,7 +11,7 @@ Practice using commands in the terminal interface and write a script that can pr
 
 For this exercise, I used the latest MovieLens dataset (Last update 9/2018) from https://grouplens.org/datasets/movielens/latest/
 
-I decided to examine how the interest in the Action genre changed among moviemakers (and thus, presumably, the audience) in the 70-year period from 1948 to 2018 (the last year the data was updated)
+I decided to examine how the interest in the Action genre changed among moviemakers (which, presumably, reflects the interests of the audience) in the 70-year period from 1948 to 2018 (the last year the data was updated)
 
 The script I wrote utilizes grep and awk iteratively to isolate the movie list for each year, then filter out the Action genre. I also added some simple arithmetic to compute what percentage of movies released in a given year were action movies. Each year's data is printed in the console and output to two files: a console log and a .csv data file.
 
