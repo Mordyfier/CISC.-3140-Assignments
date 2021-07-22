@@ -7,7 +7,7 @@ Similar to Lab 1.2 - Show the process for working with an SVN repository from th
 * Create a new SVN repository.
 * Add a new file to be tracked by the repository, commit changes, check in the file.
 * Modify the file (to create a versioning diff), commit the changes.
-* Upload the plaintext file (called e.g. session.log) to the repository.
+* Upload the plaintext file (called e.g. [session.log](https://github.com/Mordyfier/CISC3140/blob/master/Lab%202.1/session.log)) to the repository.
 * Also include a reference sheet that shows a summarized comparison of Git versus Subversion commands for each action:
 
 (Reference table sourced from https://backlog.com/git-tutorial/reference/commands/)
