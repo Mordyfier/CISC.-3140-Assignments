@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Credit Card Number Verifier</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Verify whether a credit card number is real</h1>
+<p>This webpage uses the Luhn Algorithm to verify the validity of a credit card number.</p>
+<p>Try "5555555555554444" (valid) or "5555555555554445" (invalid) to test it out!</p>
+
+<label for="cc">Enter your Credit Card number:</label>
+<input type="text" id="cc"><br><br>
+<input type="submit" id="action" value="Check">
+
+<p id="outcome"></p>
+
+
+<h2> How does this work? </h2>
+
+<p> This webpage utilizes the <a href="https://en.wikipedia.org/wiki/Luhn_algorithm">Luhn Algorithm</a> to evaluate the validity of the 
+credit card number. Valid numbers are structured in a certain way, so this algorithm will allow for quick discarding of invalid numbers. </p>
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
+
