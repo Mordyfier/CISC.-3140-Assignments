@@ -24,6 +24,8 @@ Once everything is set, simply download the makefile. You can either [go here](h
 
 With the makefile on your machine, make sure it's in a directory where you want the output datafile to go. Once ready, navigate to that directory with Git Bash (if you used `wget` to obtain the makefile, you're already there) and simply use the command `make`. The makefile will download the necessary files (the script and the data), the run the script.
 
+The whole process can be seen in the gif below:
+![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%203.1/img/illustration.gif)
 
 #### Observations
 Based on the results from the script, action movies (this includes any movie that is labeled as 'Action' in the dataset, regardless of whether it's the 'primary' genre) appear to have risen in popularity over time. Over the period examined, the genre began to make up a larger proportion of all the movies in the data set for each year. While for the years 1948-1960, action movies make up less than 10% of all the movies in the data file for their respective years, by the 1970s the ratio of such movies increased to 15-20%. By the time the 21st Century came along, Action movies *played a big role* in the movie industry - between years 2003-2018, the genre failed to comprise more than 20% of all the movies only twice ('06-'07), and averaged out to roughly 24.3% of all the movies<sup>1</sup> in the set, well above the 18.8% average for the whole 70-year interval. 
