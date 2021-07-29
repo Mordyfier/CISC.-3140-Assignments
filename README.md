@@ -14,4 +14,4 @@
 
 * Lab 3.1 - [Preparing a Repository for Sharing](https://github.com/Mordyfier/CISC3140/tree/master/Lab%203.1)
 
-* Lab 3.2 - [Event Listener Practice with JS](https://github.com/Mordyfier/CISC3140/tree/master/Lab%203.2) [Demo](https://mordyfier.github.io/CISC3140/)
+* Lab 3.2 - [Event Listener Practice with JS](https://github.com/Mordyfier/CISC3140/tree/master/Lab%203.2) | [Demo](https://mordyfier.github.io/CISC3140/)
