@@ -12,4 +12,6 @@
 
 * Lab 2.2 - [Basic Data Analysis](https://github.com/Mordyfier/CISC3140/tree/master/Lab%202.2)
 
-* Lab 3.x - Coming soon!
+* Lab 3.1 - [Preparing a Repository for Sharing](https://github.com/Mordyfier/CISC3140/tree/master/Lab%203.1)
+
+* Lab 3.2 - Coming Soon!
