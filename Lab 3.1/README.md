@@ -24,7 +24,7 @@ Once everything is set, simply download the makefile. You can either [go here](h
 
 With the makefile on your machine, make sure it's in a directory where you want the output datafile to go. Once ready, navigate to that directory with Git Bash (if you used `wget` to obtain the makefile, you're already there) and simply use the command `make`. The makefile will download the necessary files (the script and the data), the run the script.
 
-The whole process can be seen in the gif below:
+The whole process can be seen in the gif below (shown on Windows):
 ![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%203.1/img/illustration.gif)
 
 ### Observations
