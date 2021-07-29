@@ -22,7 +22,7 @@ The [script](https://github.com/Mordyfier/CISC3140/blob/master/Lab%202.2/script.
 
 Once everything is set, simply download the makefile. You can either [go here](https://raw.githubusercontent.com/Mordyfier/CISC3140/master/Lab%203.1/makefile) and copy paste the text into a new file called `makefile` (no extension), or use the command `wget https://raw.githubusercontent.com/Mordyfier/CISC3140/master/Lab%203.1/makefile` in Git Bash terminal while in your desired directory, which will procure the makefile. You can copy the `wget` command with the URL and paste it in Git terminal by right-clicking, as seen below.
 
-With the makefile on your machine, make sure it's in a directory where you want the output datafile to go. Once ready, navigate to that directory with Git Bash (if you used `wget` to obtain the makefile, you're already there) and simply use the command `make`. The makefile will download the necessary files (the script and the data), the run the script.
+With the makefile on your machine, make sure it's in a directory where you want the output datafile to go. Once ready, navigate to that directory with Git Bash (if you used `wget` to obtain the makefile, you're already there) and simply use the command `make`. The makefile will download the necessary files (the script and the data), then run the script.
 
 The whole process can be seen in the gif below (shown on Windows):
 ![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%203.1/img/illustration.gif)
