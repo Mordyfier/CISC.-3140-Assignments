@@ -3,21 +3,21 @@
 ### Creating a server; Creating a Web Page and Deployment
 
 
-Due to time constraints (3 days to learn HTML/CSS/JS/Node.js/Express.js/postgreSQL + deployment from nearly scratch is an incredibly tall order already) I did not quite manage to implement and deploy a Server API/REST API that would serve the data from my database.
+Due to time constraints (3 days to learn HTML/CSS/JS/Node.js/Express.js/PostgreSQL + deployment from nearly scratch is an incredibly tall order already) I did not quite manage to implement and deploy a Server API/REST API that would serve the data from my database.
 
 What I do have is a fully functional (albeit the functions could definitely use some polish and expansion - time was short) Node.js server coupled with Express.js for middlewares, routing, and templating (an attempt was made at proper MVC structure) for serving html webpages (prepared with the help of the pug templating package) to the user.
 
 The app, along with its database is deployed to heroku at 
 ## https://moviedb-3140.herokuapp.com/
 
-Functionality sample (Currently full movie title strings need to be input to search by, the substring functionality was lost upon move from MySQL to postgreSQL): 
+Functionality sample (Currently full movie title strings need to be input to search by, the substring functionality was lost upon move from MySQL to PostgreSQL): 
 ![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/assets/test.gif)
 
 ### Some technical info
 
-The database used is the same postgreSQL database as Lab 4.1, now deployed to heroku for use with the app through the official heroku addon. The database is incorporated into the node server with the file [database.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/util/database.js) (The connection string was edited out for security).
+The database used is the same PostgreSQL database as Lab 4.1, now deployed to Heroku for use with the app through the official Heroku addon. The database is incorporated into the node server with the file [database.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/util/database.js) (The connection string was, of course, removed for the purposes of this public repo).
 
-The movie cards are served primarily by the [movies.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/controllers/movies.js) controller. There, the databases is queried depending on the request made by the user (at the moment, only fetching by movie title is available and movie images are not provided - time).
+The movie cards are served primarily by the [movies.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/controllers/movies.js) controller. There, the database is queried depending on the request made by the user (at the moment, only fetching by movie title is available and movie images are not provided - time).
 
 An effort was made to decouple the database from the core app by parsing the database queries to a [.json file](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/movies.json), but the actual API is missing for the time being.
 
@@ -41,7 +41,7 @@ Deployment through Heroku is rather simple (this could be automated by a script,
 * After logging in, we can create a Heroku project repository using `git init`, `git add .`, and `git commit` as usual. Full documentation can be found [here](https://devcenter.heroku.com/articles/git).
 * Assuming the deployed project is ready to go, we add a [Procfile](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/Procfile) containing the command we use to start our - in this case, Node.js - app.
 * If the app is working (in particular, if the database connections are all functioning), we should be able to navigate to our app through the dashboard with the "Open App" button.
-* Voila!
+* Voilà!
 
 ### Sources
 
