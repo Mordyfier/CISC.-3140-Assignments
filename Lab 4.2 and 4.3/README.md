@@ -48,7 +48,7 @@ Deployment through Heroku is rather simple (this could be automated by a script,
 * After logging in, we can create a Heroku project repository using `git init`, `git add .`, and `git commit` as usual. Full documentation can be found [here](https://devcenter.heroku.com/articles/git).
 * Upon pushing our Heroku app repository, Heroku will take note of all the dependencies in package.json, adding them to our project automatically as if we were to do it ourselves via `npm`.
 * Assuming the deployed project is ready to go, we add a [Procfile](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/Procfile) containing the command we use to start our - in this case, Node.js - app.
-* If the app is working (in particular, if the database connections are all functioning), we should be able to navigate to our app through the dashboard with the "Open App" button.
+* If the app is working (in particular, if the database connections are all functioning), we should be able to navigate to our app from the dashboard with the "Open App" button.
 * Voilà!
 
 ### Sources
