@@ -28,6 +28,11 @@ Packages/tech used in production:
 - [PostgreSQL](https://www.postgresql.org/) - for databases
 - [node-postgress](https://node-postgres.com/) - for database interaction via Node
 
+### Workflow
+
+The structure of the deployed app can be seen through the flowchart below:
+![png](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/assets/flowchart.png)
+
 ### Deployment
 
 Deployment through Heroku is rather simple (this could be automated by a script, but all that's needed is a few usual git commands):
