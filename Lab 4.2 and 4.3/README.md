@@ -53,5 +53,5 @@ Deployment through Heroku is rather simple (this could be automated by a script,
 
 ### Sources
 
-My primary source was the 'NodeJS - complete guide' course on udemy by Maximilian Schwarzmüller:
+My primary source (particularly for the CSS styling) was the 'NodeJS - complete guide' course on udemy by Maximilian Schwarzmüller:
 https://www.udemy.com/course/nodejs-the-complete-guide/
