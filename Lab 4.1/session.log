@@ -1,0 +1,29 @@
+DROP TABLE moviesdb.movie;
+
+CREATE TABLE moviesdb.movie
+(
+    movie_id integer NOT NULL,
+    movie_title text COLLATE pg_catalog."default" NOT NULL,
+    year integer NOT NULL,
+    genres text COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT movie_pkey PRIMARY KEY (movie_id)
+)
+
+
+INSERT INTO moviesdb.movie(
+	movie_id, movie_title, year, genres)
+	VALUES (5001, 'Matrix', 1999, 'Action|Sci-Fi|Drama');
+	
+
+SELECT movie_id, movie_title, year, genres
+	FROM moviesdb.movie
+	WHERE movie_title = 'Matrix';
+
+DELETE FROM moviesdb.movie
+	WHERE movie_title = 'Matrix';
+	
+-- Imports from .csv file into the table movie
+COPY movie(movie_id, movie_title, year, genres)
+FROM '\movies.csv'
+DELIMITER ','
+CSV HEADER;
