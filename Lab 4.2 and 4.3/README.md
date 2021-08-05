@@ -19,3 +19,10 @@ The movie cards are served primarily by the [movies.js](https://github.com/Mordy
 
 An effort was made to decouple the database from the core app by parsing the database queries to a [.json file](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/movies.json), but the actual API is missing for the time being.
 
+Deployment through Heroku is rather simple:
+* After creating an account on https://www.heroku.com/, we download the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), version depending on our OS.
+* We install the CLI and log in using `heroku login`. This will open out browser window to log in to Heroku.
+* After logging in, we can create a Heroku project repository using `git init`, `git add .`, and `git commit` as usual. Full documentation can be found [here](https://devcenter.heroku.com/articles/git).
+* Assuming the deployed project is ready to go, we add a [Procfile](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/Procfile) containing the command we use to start our - in this case, Node.js - app.
+* If the app is working (in particular, if the database connections are all functioning), we should be able to navigate to our app through the dashboard with the "Open App" button.
+* Voila!
