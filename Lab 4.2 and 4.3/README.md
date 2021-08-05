@@ -25,6 +25,12 @@ The movie cards are served primarily by the [movies.js](https://github.com/Mordy
 
 An effort was made to decouple the database from the core app by parsing the database queries to a [.json file](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/movies.json), but the actual API is missing for the time being.
 
+### Data Flow Structure
+
+The structure of the deployed app can be seen through the flowchart below:
+![png](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/assets/flowchart.png)
+
+
 Packages/tech used in production:
 - [Node.js](https://nodejs.org/) - underlying server framework
 - [Express.js](https://expressjs.com/) - routing, middleware, templating
@@ -33,10 +39,6 @@ Packages/tech used in production:
 - [node-postgress](https://node-postgres.com/) - for database interaction via Node
 - [Heroku](https://www.heroku.com/) - hosting/deployment
 
-### Workflow
-
-The structure of the deployed app can be seen through the flowchart below:
-![png](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/assets/flowchart.png)
 
 ### Deployment
 
