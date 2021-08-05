@@ -5,9 +5,9 @@
 
 Due to time constraints, I did not quite manage to implement and deploy a separate Database API that would serve the data from my database.
 
-What I do have is a fully functional (albeit the functions could definitely use some polish and expansion - time was short) Node.js server coupled with Express.js for middlewares, routing, and templating (an attempt was made at proper MVC structure) for serving html webpages (prepared with the help of the pug templating package) to the user.
+What I do have is a fully functional (albeit the functions could definitely use some polish and expansion - time was short) Node.js server coupled with Express.js for middlewares, routing, and templating (an attempt was made at proper MVC structure) for serving html webpages (prepared with the help of the pug templating package) to the user. The html webpage is effectively a database gui which allows the user to query for movies in the database by title.
 
-The app, along with its database is deployed to heroku at 
+The app, along with its database is deployed to Heroku at 
 ## https://moviedb-3140.herokuapp.com/
 
 Functionality sample:
@@ -31,6 +31,7 @@ Packages/tech used in production:
 - [Pugs](https://pugjs.org/) - for templating using less verbose syntax to generate html pages
 - [PostgreSQL](https://www.postgresql.org/) - for databases
 - [node-postgress](https://node-postgres.com/) - for database interaction via Node
+- [Heroku](https://www.heroku.com/)
 
 ### Workflow
 
