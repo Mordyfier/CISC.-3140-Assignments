@@ -1,0 +1,26 @@
+.movie-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.movie-item {
+    width: 20rem;
+    max-width: 95%;
+}
+
+.movie__title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.movie__year {
+    text-align: center;
+    color: #4d4d4d;
+    margin-bottom: 0.5rem;
+}
+
+.movie__genres {
+    text-align: center;
+    word-wrap: break-word;
+}
