@@ -15,7 +15,7 @@ Functionality sample:
 
 **Notes:**
 * Currently full movie title strings need to be input to search by, the substring functionality was not retained upon the last minute move from MySQL to PostgreSQL.
-* No cover images are passed for the movie cards, instead a uniform "No image" image is displayed. A functionality that outsources urls for movies could be implemented with more time.
+* No cover images are passed for the movie cards, instead a uniform "No image" image is displayed. A functionality that sources urls for movie covers could be implemented with more time.
 
 ### Some technical info
 
