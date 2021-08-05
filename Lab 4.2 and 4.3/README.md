@@ -10,7 +10,7 @@ What I do have is a fully functional (albeit the functions could definitely use 
 The app, along with its database is deployed to heroku at 
 ## https://moviedb-3140.herokuapp.com/
 
-Functionality sample (Currently full movie title strings need to be input to search by, the substring functionality was lost upon move from MySQL to PostgreSQL): 
+Functionality sample (Currently full movie title strings need to be input to search by, the substring functionality was not retained upon the last minute move from MySQL to PostgreSQL): 
 ![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/assets/test.gif)
 
 ### Some technical info
