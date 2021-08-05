@@ -31,7 +31,7 @@ Packages/tech used in production:
 - [Pugs](https://pugjs.org/) - for templating using less verbose syntax to generate html pages
 - [PostgreSQL](https://www.postgresql.org/) - for databases
 - [node-postgress](https://node-postgres.com/) - for database interaction via Node
-- [Heroku](https://www.heroku.com/)
+- [Heroku](https://www.heroku.com/) - hosting/deployment
 
 ### Workflow
 
