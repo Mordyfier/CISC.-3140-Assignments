@@ -9,3 +9,6 @@ That said, what I do have is a fully functional (albeit the functions leave a lo
 
 The app, along with its database is deployed to heroku at 
 ## https://moviedb-3140.herokuapp.com/
+
+Functionality sample: 
+![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/assets/test.gif)
