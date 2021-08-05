@@ -21,6 +21,13 @@ The movie cards are served primarily by the [movies.js](https://github.com/Mordy
 
 An effort was made to decouple the database from the core app by parsing the database queries to a [.json file](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/movies.json), but the actual API is missing for the time being.
 
+Packages/tech used in production:
+- [Node.js](https://nodejs.org/) - underlying server framework
+- [Express.js](https://expressjs.com/) - routing, middleware, templating
+- [Pugs](https://pugjs.org/) - for templating using less verbose syntax to generate html pages
+- [PostgreSQL](https://www.postgresql.org/) - for databases
+- [node-postgress](https://node-postgres.com/) - for database interaction via Node
+
 ### Deployment
 
 Deployment through Heroku is rather simple (this could be automated by a script, but all that's needed is a few usual git commands):
