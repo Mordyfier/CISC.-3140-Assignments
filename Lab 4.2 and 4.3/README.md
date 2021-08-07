@@ -3,7 +3,7 @@
 ### Creating a server; Creating a Web Page and Deployment
  
 
-The below Heroku app consists of a Node.js server coupled with Express.js for middlewares, routing, and templating (an attempt was made at a proper MVC structure) for serving html webpages (prepared with the help of the pug templating package) to the user. The html webpage is effectively a database gui which allows the user to query for movies in the database by title. **As a complete beginner, I kind of misunderstood the specifics of the assignment, and thus my server and the front-end are all together in this one app. I hope I can restructure it over weekend to better conform with the assignment.**
+The below Heroku app consists of a Node.js server coupled with Express.js for middlewares, routing, and templating (an attempt was made at a proper MVC structure) for serving html webpages (prepared with the help of the pug templating package) to the user. The html webpage is effectively a database gui which allows the user to query for movies in the database by title. **As a complete beginner, I kind of misunderstood the specifics of the assignment until it was too late to change it, and thus my server and the front-end are all together in this one app. I hope I can restructure it over weekend to better conform with the assignment.**
 
 The app, along with its database is deployed to Heroku at 
 ## https://moviedb-3140.herokuapp.com/
