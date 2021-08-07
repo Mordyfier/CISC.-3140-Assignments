@@ -31,7 +31,7 @@ The structure of the deployed app can be seen through the flowchart below:
 Packages/tech used in production:
 - [Node.js](https://nodejs.org/) - underlying server framework
 - [Express.js](https://expressjs.com/) - routing, middleware, templating
-- [Pugs](https://pugjs.org/) - for templating using less verbose syntax to generate html pages
+- [Pug](https://pugjs.org/) - for templating using less verbose syntax to generate html pages
 - [PostgreSQL](https://www.postgresql.org/) - for databases
 - [node-postgress](https://node-postgres.com/) - for database interaction via Node
 - [Heroku](https://www.heroku.com/) - hosting/deployment
