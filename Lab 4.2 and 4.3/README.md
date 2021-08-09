@@ -1,11 +1,9 @@
 ## Labs 4.2 and 4.3
 
 ### Creating a server; Creating a Web Page and Deployment
+ 
 
-
-Due to time constraints, I did not quite manage to implement and deploy a separate Database API that would serve the data from my database.
-
-What I do have is a fully functional (albeit the functions could definitely use some polish and expansion - time was short when trying to learn everything from scratch) Node.js server coupled with Express.js for middlewares, routing, and templating (an attempt was made at proper MVC structure) for serving html webpages (prepared with the help of the pug templating package) to the user. The html webpage is effectively a database gui which allows the user to query for movies in the database by title.
+The below Heroku app consists of a Node.js server coupled with Express.js for middlewares, routing, and templating (an attempt was made at a proper MVC structure) for serving html webpages (prepared with the help of the pug templating package) to the user. The html webpage is effectively a database gui which allows the user to query for movies in the database by title. **As a complete beginner, I kind of misunderstood the specifics of the assignment until it was too late to change it, and thus my server and the front-end are all together in this one app. I hope I can restructure it over weekend to better conform with the assignment.**
 
 The app, along with its database is deployed to Heroku at 
 ## https://moviedb-3140.herokuapp.com/
@@ -21,9 +19,8 @@ Functionality sample:
 
 The database used is the same PostgreSQL database as Lab 4.1, now deployed to Heroku for use with the app through the official Heroku addon. The database is incorporated into the node server with the file [database.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/util/database.js) (The connection string was, of course, removed for the purposes of this public repo).
 
-The movie cards are served primarily by the [movies.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/controllers/movies.js) controller. There, the database is queried depending on the request made by the user (at the moment, only fetching by movie title is available and movie images are not provided - time).
+The movie cards are served primarily by the [movies.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/controllers/movies.js) controller. There, the database is queried depending on the request made by the user (at the moment, only fetching by movie title is available and movie images are not provided).
 
-An effort was made to decouple the database from the core app by parsing the database queries to a [.json file](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/movies.json), but the actual API is missing for the time being.
 
 ### Data Flow Structure
 
@@ -33,8 +30,8 @@ The structure of the deployed app can be seen through the flowchart below:
 
 Packages/tech used in production:
 - [Node.js](https://nodejs.org/) - underlying server framework
-- [Express.js](https://expressjs.com/) - routing, middleware, templating
-- [Pugs](https://pugjs.org/) - for templating using less verbose syntax to generate html pages
+- [Express](https://expressjs.com/) - routing, middleware, templating
+- [Pug](https://pugjs.org/) - for templating using less verbose syntax to generate html pages
 - [PostgreSQL](https://www.postgresql.org/) - for databases
 - [node-postgress](https://node-postgres.com/) - for database interaction via Node
 - [Heroku](https://www.heroku.com/) - hosting/deployment
