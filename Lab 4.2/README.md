@@ -35,7 +35,7 @@ All the movies, oldest first.
 All the movies, newest first.
 
 
-### `/movies/title/:title/` https://moviedb3140-rest.herokuapp.com/title/Toy
+### `/movies/title/:title/` https://moviedb3140-rest.herokuapp.com/movies/title/Toy
 
 Outputs all the movies whose title matches the string defined in the parameter `:title`. Example: `/movies/title/Toy` will output all the movies containing the term "Toy", such as "Toy Story" or "Toys".
 
