@@ -44,7 +44,7 @@ Packages/tech used in production:
 
 If we have installed [Node.js](https://nodejs.org/) on our computer, we have access to npm, through which we will install our packages. 
 
-First, in the working directory, open the terminal (or navigate to the directory through it) and use the commant `npm init`. This will prompt for some information about the project and create `package.json` which will store all the information about the `npm` packages used. (If you're familiar with Maven in Java, you could mostly think of `npm` as something similar.)
+First, in the working directory, open the terminal (or navigate to the directory through it) and use the commant `npm init`. This will prompt for some information about the project and create [`package.json`](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/package.json) which will store all the information about the `npm` packages used. (If you're familiar with Maven in Java, you could mostly think of `npm` as something similar.)
 
 The packages used in this project (links to their npm pages) and the commands to install them (`--save` installs the package as a runtime dependency):
 - [Express](https://www.npmjs.com/package/express) - `npm install --save express`
