@@ -10,6 +10,7 @@ This server API is deployed to:
 
 # Documentation:
 
+All requests return JSON.
 
 ## GET requests supported:
 
