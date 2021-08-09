@@ -1,4 +1,4 @@
-## Labs 4.2 and 4.3
+## Labs 4.3
 
 ### Creating a server; Creating a Web Page and Deployment
  
