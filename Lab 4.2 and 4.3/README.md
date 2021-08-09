@@ -5,7 +5,7 @@
 
 The below Heroku app consists of a Node.js server coupled with Express.js for middlewares, routing, and templating (an attempt was made at a proper MVC structure) for serving html webpages (prepared with the help of the pug templating package) to the user. The html webpage is effectively a database gui which allows the user to query for movies in the database by title. 
 
-**As a complete beginner, I kind of misunderstood the specifics of the assignment until it was too late to change it, and thus my server and the front-end are all together in this one app. I hope I can restructure it over weekend to better conform with the assignment.**
+~~**As a complete beginner, I kind of misunderstood the specifics of the assignment until it was too late to change it, and thus my server and the front-end are all together in this one app. I hope I can restructure it over weekend to better conform with the assignment.**~~
 
 **UPDATE: Lab 4.2 was submitted separately (albeit late) to illustrate the creation of a database API without the frontend. Lab 4.3 is still fulfilled by this submission (through the frontend and deployment portions - the frontend is not using the new Lab 4.2 REST API, however.)**
 
@@ -16,7 +16,7 @@ Functionality sample:
 ![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/assets/test.gif)
 
 **Notes:**
-* Currently full movie title strings need to be input to search by, the substring functionality was not retained upon the last minute move from MySQL to PostgreSQL.
+* ~~Currently full movie title strings need to be input to search by, the substring functionality was not retained upon the last minute move from MySQL to PostgreSQL.~~ Substrings are back, now searching by Genre and Year are also implemented
 * No cover images are passed for the movie cards, instead a uniform "No image" image is displayed. A functionality that sources urls for movie covers could be implemented with more time.
 
 ### Some technical info
