@@ -16,7 +16,7 @@ Functionality sample:
 ![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/assets/test.gif)
 
 **Notes:**
-* ~~Currently full movie title strings need to be input to search by, the substring functionality was not retained upon the last minute move from MySQL to PostgreSQL.~~ Substrings are back, now searching by Genre and Year are also implemented, and rating counts and averagee ratings are now displayed on each movie card. 
+* ~~Currently full movie title strings need to be input to search by, the substring functionality was not retained upon the last minute move from MySQL to PostgreSQL.~~ Substrings are back, now searching by Genre and Year are also implemented, and rating counts and average ratings are now displayed on each movie card. 
 * No cover images are passed for the movie cards, instead a uniform "No image" image is displayed. A functionality that sources urls for movie covers could be implemented with more time.
 
 ### Some technical info
