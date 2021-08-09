@@ -40,6 +40,20 @@ Packages/tech used in production:
 - [node-postgress](https://node-postgres.com/) - for database interaction via Node
 - [Heroku](https://www.heroku.com/) - hosting/deployment
 
+### Development Environment
+
+If we have installed [Node.js](https://nodejs.org/) on our computer, we have access to npm, through which we will install our packages. 
+
+First, in the working directory, open the terminal (or navigate to the directory through it) and use the commant `npm init`. This will prompt for some information about the project and create `package.json` which will store all the information about the `npm` packages used. (If you're familiar with Maven in Java, you could mostly think of `npm` as something similar.)
+
+The packages used in this project (links to their npm pages) and the commands to install them (`--save` installs the package as a runtime dependency):
+- [Express](https://www.npmjs.com/package/express) - `npm install --save express`
+- [body-parser](https://www.npmjs.com/package/body-parser) - `npm install --save body-parser`
+- [Pug](https://www.npmjs.com/package/pug) - `npm install --save pug`
+- [node-postgress](https://www.npmjs.com/package/pg) - `npm install --save pg`
+
+A utility package useful in the developer process - nodemon restarts the server every time it detects changes, so that we don't have to restart it with `npm start` or `node app.js` all the time:
+- [nodemon](https://www.npmjs.com/package/nodemon) - `npm install --save-dev nodemon` (`--save-dev` keeps the package as a local tool and not part of the packages required for the app to run)
 
 ### Deployment
 
