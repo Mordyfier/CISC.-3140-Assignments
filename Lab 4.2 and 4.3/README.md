@@ -28,7 +28,7 @@ The movie cards are served primarily by the [movies.js](https://github.com/Mordy
 
 ### Data Flow Structure
 
-The structure of the deployed app can be seen through the flowchart below:
+The structure of the deployed app can be seen through the flowchart below (made with help of [Zen Flowchart](https://www.zenflowchart.com/)):
 ![png](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/assets/flowchart.png)
 
 
