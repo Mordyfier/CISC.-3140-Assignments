@@ -12,7 +12,7 @@ CREATE TABLE moviesdb.movie
 
 INSERT INTO moviesdb.movie(
 	movie_id, movie_title, year, genres)
-	VALUES (5001, 'Matrix', 1999, 'Action|Sci-Fi|Drama');
+	VALUES (5001, 'Matrix', 1999, 'Action|Sci-Fi|Thriller');
 	
 
 SELECT movie_id, movie_title, year, genres
