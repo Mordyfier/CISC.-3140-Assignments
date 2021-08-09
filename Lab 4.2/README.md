@@ -4,38 +4,38 @@
 
 This server API is deployed to:
 
-## https://moviedb3140-rest.herokuapp.com/
+## https://moviedb3140-rest.herokuapp.com/movies/
 
-
+(the root URL is not an endpoint, hence there is no request associated with it) 
 
 # Documentation:
 
 
 ## GET requests supported:
 
-### `/movies/`
+### `/movies/` https://moviedb3140-rest.herokuapp.com/movies/
 
 This endpoint outputs the entire database, unsorted.
 
-#### `/movies/asc` 
+#### `/movies/asc` https://moviedb3140-rest.herokuapp.com/movies/asc
 
 Outputs all the movies in alphabetical order.
 
-#### `/movies/desc`
+#### `/movies/desc` https://moviedb3140-rest.herokuapp.com/movies/desc
 
 Converse of the above; all the movies output in descending alphabetical order.
 
-#### `/movies/old`
+#### `/movies/old` https://moviedb3140-rest.herokuapp.com/movies/old
 
 All the movies, oldest first.
 
 
-#### `/movies/new`
+#### `/movies/new` https://moviedb3140-rest.herokuapp.com/movies/new
 
 All the movies, newest first.
 
 
-### `/movies/title/:title/`
+### `/movies/title/:title/` https://moviedb3140-rest.herokuapp.com/title/Toy
 
 Outputs all the movies whose title matches the string defined in the parameter `:title`. Example: `/movies/title/Toy` will output all the movies containing the term "Toy", such as "Toy Story" or "Toys".
 
@@ -45,7 +45,7 @@ Outputs all the movies whose title matches the string defined in the parameter `
 As before, sorting by title and by age is available.
 
 
-### `/movies/genre/:genre/`
+### `/movies/genre/:genre/` https://moviedb3140-rest.herokuapp.com/movies/genre/Action
 
 Outputs all the movies whose `genres` field contains the genre specified in the parameter. Example: `/movies/genre/Action` will output all the movies determined to also be of the Action genre.
 
@@ -55,7 +55,7 @@ Outputs all the movies whose `genres` field contains the genre specified in the 
 Sorting by title and age is available.
 
 
-### `/movies/year/:year/`
+### `/movies/year/:year/` https://moviedb3140-rest.herokuapp.com/movies/year/1999
 
 Outputs all the movies whose `year` field matches the year specified in the parameter. Example: `/movies/year/1999` will output all the movies released in 1999.
 
@@ -66,7 +66,7 @@ Since year is already limited, there are no `/old` and `/new` endpoints here. Al
 
 
 
-### `/movies/rating/:rating/`
+### `/movies/rating/:rating/` https://moviedb3140-rest.herokuapp.com/movies/rating/4
 
 Outputs all the movies whose average `rating` (determined by dividing `ratings_total` by `ratings_count`) is greater than that specified in the parameter. Example: `/movies/rating/4` will output all whose aggregate user rating is greater than 4.0/5.
 
