@@ -5,7 +5,7 @@
 
 The below Heroku app consists of a Node.js server coupled with Express.js for middlewares, routing, and templating (an attempt was made at a proper MVC structure) for serving html webpages (prepared with the help of the pug templating package) to the user. The html webpage is effectively a database gui which allows the user to query for movies in the database by title. 
 
-**I originally misunderstood the specifics of the assignment until it was too late to change it, and thus my server and the front-end are all together in this one app. ~~I hope I can restructure it over weekend to better conform with the assignment.**~~
+**I originally misunderstood the specifics of the assignment until it was too late to change it, and thus my server and the front-end are all together in this one app.** ~~**I hope I can restructure it over weekend to better conform with the assignment.**~~
 
 **UPDATE: Lab 4.2 was submitted separately (late) to illustrate the creation of a database API without the frontend. This submission (submitted on time) is still intended as fulfillment of Lab 4.3 - the frontend is not using the new Lab 4.2 REST API, however.)**
 
