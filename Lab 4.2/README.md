@@ -91,7 +91,7 @@ Since year is already filtered, there are no `/old` and `/new` endpoints here. A
 
 Outputs all the movies whose average `rating` (determined by dividing `ratings_total` by `ratings_count`) is greater than that specified in the parameter. Example: `/movies/rating/4` will output all whose aggregate user rating is greater than 4.0/5.
 
-Range: 0-5.0. Notably, despite there being several movies with average of 5.0, [`/rating/5`](https://moviedb3140-rest.herokuapp.com/movies/rating/5) will return an empty set, since the condition is specifically 'greater than'. 'Equal' and 'lesser than' queries could (and probably should) be implemented.
+Range: 0-4.99. Notably, despite there being several movies with average of 5.0, [`/movies/rating/5`](https://moviedb3140-rest.herokuapp.com/movies/rating/5) will return an empty set, since the condition is specifically 'greater than'. 'Equal' and 'lesser than' queries could (and probably should) be implemented.
 
 #### [`/movies/rating/:rating/asc`](https://moviedb3140-rest.herokuapp.com/movies/rating/4/asc), [`/movies/rating/:rating/desc`](https://moviedb3140-rest.herokuapp.com/movies/rating/4/desc), [`/movies/rating/:rating/old`](https://moviedb3140-rest.herokuapp.com/movies/rating/4/old), [`/movies/rating/:rating/new`](https://moviedb3140-rest.herokuapp.com/movies/rating/4/new)
 
