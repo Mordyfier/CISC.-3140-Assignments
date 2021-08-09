@@ -2,7 +2,11 @@
 
 ## This is a REST API for Lab 4.2 (as of now, Lab 4.3 is still not a frontend for this API, this will hopefully be fixed soon)
 
-This server API is deployed to ## https://moviedb3140-rest.herokuapp.com/
+This server API is deployed to:
+
+## https://moviedb3140-rest.herokuapp.com/
+
+
 
 # Documentation:
 
@@ -91,4 +95,4 @@ With proper authentication, more requests such as DELETE might be useful. Users 
 
 ## Sources
 
-The database was created based on the MovieLens dataset. The general .csv file as well as the ratings .csv file were combined into one to facilitate the initialization and rebuilding of the database. 
+The database was created based on the [MovieLens](https://grouplens.org/datasets/movielens/latest/) dataset. The general .csv file as well as the ratings .csv file were combined into one to facilitate the initialization and rebuilding of the database. 
