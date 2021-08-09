@@ -1,6 +1,6 @@
 # Server Database API
 
-## This is a REST API for Lab 4.2 (as of now, Lab 4.3 is still not a frontend for this API, this will hopefully be fixed soon)
+## This is a REST API for Lab 4.2
 
 This server API is deployed to:
 
