@@ -55,6 +55,9 @@ The packages used in this project (links to their npm pages) and the commands to
 A utility package useful in the developer process - nodemon restarts the server every time it detects changes, so that we don't have to restart it with `npm start` or `node app.js` all the time:
 - [nodemon](https://www.npmjs.com/package/nodemon) - `npm install --save-dev nodemon` (`--save-dev` keeps the package as a local tool and not part of the packages required for the app to run)
 
+As a personal recommendation - [Visual Studio Code](https://code.visualstudio.com/) is an outstanding IDE for many uses, including web development with Node. It allows to simplify many mundane tasks such as html boilerplate, contains git integration for seamless updating of you repositories as you develop, and more.
+
+
 ### Deployment
 
 Deployment through Heroku is rather simple (this could be automated by a script, but all that's needed is a few usual git commands):
