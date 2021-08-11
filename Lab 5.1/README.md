@@ -26,4 +26,4 @@ Review each of the tools covered in class (lecture and labs).
 |Heroku|https://devcenter.heroku.com/categories/reference|`heroku create`<sup>1</sup>|
 
 
-<sup>1</sup> Since these are command line tools rather than languages, an sample command that can be used in each respective CLI seems more appropriate for this column.
+<sup>1</sup> Since these are command line tools rather than languages, a sample command that can be used in each respective CLI seems more appropriate for this column.
