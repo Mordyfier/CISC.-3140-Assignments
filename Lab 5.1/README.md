@@ -21,8 +21,8 @@ Review each of the tools covered in class (lecture and labs).
 |JavaScript|https://devdocs.io/javascript/|`console.log("Hello World!")`|
 |SQLite|https://www.sqlite.org/docs.html|`SELECT * FROM table;`|
 |PostgreSQL|https://www.postgresql.org/docs/|`SELECT * FROM db.table;`|
-|Node.js|https://nodejs.org/en/docs/|`server.listen(PORT)`|
-|Express|https://expressjs.com/en/api.html|`var router = express.Router([options])`|
+|Node.js|https://nodejs.org/en/docs/|`server.listen(PORT);`|
+|Express|https://expressjs.com/en/api.html|`var router = express.Router([options]);`|
 |Heroku|https://devcenter.heroku.com/categories/reference|`heroku create`<sup>1</sup>|
 
 
