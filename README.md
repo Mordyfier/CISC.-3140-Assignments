@@ -14,7 +14,7 @@
 
 * Lab 3.1 - [Preparing a Repository for Sharing](https://github.com/Mordyfier/CISC3140/tree/master/Lab%203.1)
 
-* Lab 3.2 - [Event Listener Practice with JS](https://github.com/Mordyfier/CISC3140/tree/master/Lab%203.2) | [Demo](https://mordyfier.github.io/CISC3140/)
+* Lab 3.2 - [Event Listener Practice with JS](https://github.com/Mordyfier/CISC3140/tree/master/Lab%203.2)
 
 * Lab 4.1 - [Create a Database](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.1)
 
@@ -23,3 +23,6 @@
 * Lab 4.3 - [Creating a Web Page and Deployment](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.2%20and%204.3) | [App](https://moviedb-3140.herokuapp.com/)
 
 * Lab 5.1 - [Documentation Practice](https://github.com/Mordyfier/CISC3140/tree/master/Lab%205.1)
+
+* Lab 5.2 - [CSS Practice](https://github.com/Mordyfier/CISC3140/tree/master/Lab%205.2)  | [Demo](https://mordyfier.github.io/CISC3140/)
+
