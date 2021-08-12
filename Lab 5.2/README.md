@@ -7,4 +7,4 @@
 
 The page with styling is available at https://mordyfier.github.io/CISC3140
 
-Several rules were used to distinguish different parts of the table - the code examples and links use a different fond, and the columns are sized differently.
+Several rules were used to distinguish different parts of the table - the code examples and links use a different font, and the columns are sized individually in an attempt to make the table more readable.
