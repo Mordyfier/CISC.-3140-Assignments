@@ -13,7 +13,7 @@ The app, along with its database is deployed to Heroku at
 ## https://moviedb-3140.herokuapp.com/
 
 Functionality sample:
-![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/assets/test.gif)
+![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.3/assets/test.gif)
 
 **Notes:**
 * ~~Currently full movie title strings need to be input to search by, the substring functionality was not retained upon the last minute move from MySQL to PostgreSQL.~~ Substrings are back, now searching by Genre and Year are also implemented, and rating counts and average ratings are now displayed on each movie card. 
