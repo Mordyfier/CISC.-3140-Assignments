@@ -9,7 +9,7 @@ The app, along with its database is deployed to Heroku at
 ## https://moviedb-3140.herokuapp.com/
 
 Functionality sample:
-![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/assets/test.gif)
+![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.3/assets/test.gif)
 
 **Notes:**
 * Currently full movie title strings need to be input to search by, the substring functionality was not retained upon the last minute move from MySQL to PostgreSQL.
@@ -25,7 +25,7 @@ The movie cards are served primarily by the [movies.js](https://github.com/Mordy
 ### Data Flow Structure
 
 The structure of the deployed app can be seen through the flowchart below:
-![png](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/assets/flowchart.png)
+![png](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.3/assets/flowchart.png)
 
 
 Packages/tech used in production:
