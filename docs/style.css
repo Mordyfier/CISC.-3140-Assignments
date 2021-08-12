@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(17, 37, 97);
+    padding: 0;
+    margin: 0;
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    font-family: 'Arial', sans-serif;
+    color: lemonchiffon;
+}
+
+.intro {
+    font-size: larger;
+    color: lavender;
+}
+
+table {
+    width: 70%;
+    padding-left: 45rem;
+    color: palegreen;
+    margin: 3rem;
+    border-spacing: 5px;
+}
+
+th {
+    background-color: rgb(18, 48, 139);
+    color: lemonchiffon;
+    padding: 5px;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+td {
+    background-color: rgb(33, 66, 165);
+    padding: 3px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+a {
+    color: yellow;
+}
+
+.name {
+    width: 5%;
+    font-size: larger;
+    color:lemonchiffon;
+}
+
+.link {
+    width: 10%;
+    font-family: Arial, sans-serif;
+    
+}
+
+.code {
+    width: 10%;
+    font-family: 'Courier New', serif;
+    color: aliceblue;   
+}
+
+.footnote {
+    color:rgb(111, 140, 226);
+    font-size: large;
+}
