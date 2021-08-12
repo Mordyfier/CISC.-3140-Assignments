@@ -7,7 +7,7 @@ The below Heroku app consists of a Node.js server coupled with Express.js for mi
 
 **I originally misunderstood the specifics of the assignment until it was too late to change it, and thus my server and the front-end are all together in this one app.** ~~**I hope I can restructure it over weekend to better conform with the assignment.**~~
 
-**UPDATE: Lab 4.2 was submitted separately (late) to illustrate the creation of a database API without the frontend. This submission was submitted on time - I accidentally deleted the directory, but the [original '4.2 & 4.3' directory can be still found in a side branch with the appropriate dates](https://github.com/Mordyfier/CISC3140/tree/21de90ea66494be9ede44719b94fbfb1d25572d0/Lab%204.2%20and%204.3) from when it was originally submitted and is still intended as fulfillment of Lab 4.3 - the frontend is not using the new Lab 4.2 REST API, however.**
+**UPDATE: Lab 4.2 was submitted separately (late) to illustrate the creation of a database API without the frontend. This submission was submitted on time - I accidentally deleted the directory, but the [original '4.2 & 4.3' directory can be still found in a side branch with the appropriate dates](https://github.com/Mordyfier/CISC3140/tree/develop/Lab%204.2%20and%204.3) from when it was originally submitted and is still intended as fulfillment of Lab 4.3 - the frontend is not using the new Lab 4.2 REST API, however.**
 
 The app, along with its database is deployed to Heroku at 
 ## https://moviedb-3140.herokuapp.com/
