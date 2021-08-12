@@ -26,3 +26,4 @@
 
 * Lab 5.2 - [CSS Practice](https://github.com/Mordyfier/CISC3140/tree/master/Lab%205.2)  | [Demo](https://mordyfier.github.io/CISC3140/)
 
+* Lab 5.3 - [Automated Deployment/Configuration Files - Separate GitHub Actions tutorial Repository](https://github.com/Mordyfier/hello-github-actions)
