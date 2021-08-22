@@ -18,11 +18,9 @@
 
 * Lab 4.1 - [Create a Database](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.1)
 
-* **The original Lab 4.2 & 4.3 Submitted on Thursday, Aug 5:** - [Create a Server; Create a Web Page and Deployment](https://github.com/Mordyfier/CISC3140/tree/develop/Lab%204.2%20and%204.3)
+* Lab 4.2 - [Database Server API](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.2)
 
-* Lab 4.2 - [Database Server API](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.2) - (Submitted late on Monday, Aug 9)
-
-* Lab 4.3 - [Creating a Web Page and Deployment](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.3) | [App](https://moviedb-3140.herokuapp.com/) (Same as 4.2 & 4.3 really)
+* Lab 4.3 - [Creating a Web Page and Deployment](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.3) | [App](https://moviedb-3140.herokuapp.com/)
 
 * Lab 5.1 - [Documentation Practice](https://github.com/Mordyfier/CISC3140/tree/master/Lab%205.1)
 
