@@ -72,3 +72,5 @@ Deployment through Heroku is rather simple (this could be automated by a script,
 
 My primary source (particularly for the CSS styling) was the 'NodeJS - complete guide' course on udemy by Maximilian Schwarzmüller:
 https://www.udemy.com/course/nodejs-the-complete-guide/
+
+The fields in the database have been populated with data from the [MovieLens](https://grouplens.org/datasets/movielens/latest/) small dataset, cleaned and reformatted according to my needs.
