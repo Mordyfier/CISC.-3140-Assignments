@@ -2,12 +2,11 @@
 
 ### Creating a server; Creating a Web Page and Deployment
  
+This web app was created for the purpose of a CISC 3140. - Design & Implementation of Large Scale Web Applications at Brooklyn College. It is effectively a translation of the small [MovieLens](https://grouplens.org/datasets/movielens/latest/) dataset into a visual catalogue of films which serves the information in the dataset at a glance rather than having to navigate the .csv files. 
 
 The below Heroku app consists of a Node.js server coupled with Express.js for middlewares, routing, and templating (an attempt was made at a proper MVC structure) for serving html webpages (prepared with the help of the pug templating package) to the user. The html webpage is effectively a database gui which allows the user to query for movies in the database by title. 
 
-**I originally misunderstood the specifics of the assignment until it was too late to change it, and thus my server and the front-end are all together in this one app.** ~~**I hope I can restructure it over weekend to better conform with the assignment.**~~
-
-**UPDATE: Lab 4.2 was submitted separately (late) to illustrate the creation of a database API without the frontend. This submission was submitted on time - I accidentally deleted the directory, but the [original '4.2 & 4.3' directory can be still found in a side branch with the appropriate dates](https://github.com/Mordyfier/CISC3140/tree/develop/Lab%204.2%20and%204.3) from when it was originally submitted and is still intended as fulfillment of Lab 4.3 - the frontend is not using the new Lab 4.2 REST API, however.**
+At this point, the backend and frontend of this webapp are **not** decoupled. However, I plan (current semester permitting) to explore React.js enough to reformat this project into a Single Page App utilizing [the API](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.2) I wrote for a different assignment. 
 
 The app, along with its database is deployed to Heroku at 
 ## https://moviedb-3140.herokuapp.com/
@@ -16,8 +15,8 @@ Functionality sample:
 ![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.3/assets/test.gif)
 
 **Notes:**
-* ~~Currently full movie title strings need to be input to search by, the substring functionality was not retained upon the last minute move from MySQL to PostgreSQL.~~ Substrings are back, now searching by Genre and Year are also implemented, and rating counts and average ratings are now displayed on each movie card. 
-* No cover images are passed for the movie cards, instead a uniform "No image" image is displayed. A functionality that sources urls for movie covers could be implemented with more time.
+* Unlike in the image above, searching by substrings is possible, as well as searching by Genre and Year. Rating counts and average ratings are now also displayed on each movie card. 
+* No cover images are passed for the movie cards, instead a uniform "No image" image is displayed. A functionality that sources urls for movie covers could be implemented with more time. **This is currently in progress, coming soon!**
 
 ### Some technical info
 
