@@ -8,55 +8,56 @@
 * ### adding poster images to the movie cards 
 * ### most likely switching the database to MongoDB (primarily in order to explore non-relational database management, but also because I think it works better for my use here - particularly with genres management)
 * ### moving the deployment to AWS 
-* ### and, last but certainly not least, exploring React.js enough to reformat this project into a Single Page App utilizing [the API](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.2) I wrote for a different assignment. 
+* ### and, last but certainly not least, exploring React.js enough to reformat this project into a Single Page App utilizing [the API](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.2) (or - probably - a better one, also utilizing mongoDB) I wrote for a different assignment. 
 
 ## The progress of this process will be documented in a dedicated repository [here](https://github.com/Mordyfier/moviedb).
  
  ______________________________________
  
+## Web App description
+
 This web app was created for the purpose of a CISC 3140. - Design & Implementation of Large Scale Web Applications at Brooklyn College. It is effectively a translation of the small [MovieLens](https://grouplens.org/datasets/movielens/latest/) dataset into a visual catalogue of films which serves the information in the dataset at a glance rather than having to navigate the .csv files. 
 
-The below Heroku app consists of a Node.js server coupled with Express.js for middlewares, routing, and templating (an attempt was made at a proper MVC structure) for serving html webpages (prepared with the help of the pug templating package) to the user. The html webpage is effectively a database gui which allows the user to query for movies in the database by title. 
+The below Heroku-deployed app consists of a Node.js server coupled with Express.js for middlewares, routing, and templating (an attempt was made at a proper MVC structure) for serving html webpages (prepared with the help of the [Pug](https://www.npmjs.com/package/pug) templating package) to the user. The html webpage is effectively a database gui which allows the user to query for movies in the database by title, genre, or year. 
 
 The app, along with its database is deployed to Heroku at 
 ## https://moviedb-3140.herokuapp.com/
 
+___________
 
-Functionality sample:
+## Functionality sample:
 ![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.3/assets/test.gif)
 
 **Notes:**
 * Unlike in the image above, searching by substrings is possible, as well as searching by Genre and Year. Rating counts and average ratings are now also displayed on each movie card. 
 * No cover images are passed for the movie cards, instead a uniform "No image" image is displayed. A functionality that sources urls for movie covers could be implemented with more time. **This is currently in progress, coming soon!**
 
-### Some technical info
+___________
+
+## Some technical info
 
 The database used is the same PostgreSQL database as Lab 4.1, now deployed to Heroku for use with the app through the official Heroku addon. The database is incorporated into the node server with the file [database.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/util/database.js) (The connection string was, of course, removed for the purposes of this public repo).
 
 The movie cards are served primarily by the [movies.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/controllers/movies.js) controller. There, the database is queried depending on the request made by the user (at the moment, only fetching by movie title is available and movie images are not provided).
 
+___________
 
-### Data Flow Structure
+
+## Data Flow Structure
 
 The structure of the deployed app can be seen through the flowchart below (made with help of [Zen Flowchart](https://www.zenflowchart.com/)):
 ![png](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.3/assets/flowchart.png)
 
+___________
 
-Packages/tech used in production:
-- [Node.js](https://nodejs.org/) - underlying server framework
-- [Express](https://expressjs.com/) - routing, middleware, templating
-- [Pug](https://pugjs.org/) - for templating using less verbose syntax to generate html pages
-- [PostgreSQL](https://www.postgresql.org/) - for databases
-- [node-postgress](https://node-postgres.com/) - for database interaction via Node
-- [Heroku](https://www.heroku.com/) - hosting/deployment
+## Development Environment
 
-### Development Environment
 
 If we have installed [Node.js](https://nodejs.org/) on our computer, we have access to npm, through which we will install our packages. 
 
 First, in the working directory, open the terminal (or navigate to the directory through it) and use the commant `npm init`. This will prompt for some information about the project and create [`package.json`](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/package.json) which will store all the information about the `npm` packages used. (If you're familiar with Maven in Java, you could mostly think of `npm` as something similar.)
 
-The packages used in this project (links to their npm pages) and the commands to install them (`--save` installs the package as a runtime dependency):
+### The packages used in this project (links to their npm pages) and the commands to install them (`--save` installs the package as a runtime dependency):
 - [Express](https://www.npmjs.com/package/express) - `npm install --save express`
 - [body-parser](https://www.npmjs.com/package/body-parser) - `npm install --save body-parser`
 - [Pug](https://www.npmjs.com/package/pug) - `npm install --save pug`
@@ -67,8 +68,9 @@ A utility package useful in the developer process - nodemon restarts the server 
 
 As a personal recommendation - [Visual Studio Code](https://code.visualstudio.com/) is an outstanding IDE for many uses, including web development with Node. It allows to simplify many mundane tasks such as html boilerplate, contains git integration for seamless updating of your repositories as you develop, and more.
 
+___________
 
-### Deployment
+## Deployment
 
 Deployment through Heroku is rather simple (this could be automated by a script, but all that's needed is a few usual git commands):
 * After creating an account on https://www.heroku.com/, we download the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), version depending on our OS.
@@ -79,7 +81,9 @@ Deployment through Heroku is rather simple (this could be automated by a script,
 * If the app is working (in particular, if the database connections are all functioning), we should be able to navigate to our app from the dashboard with the "Open App" button.
 * Voilà!
 
-### Sources
+___________
+
+## Sources
 
 My primary source (particularly for the CSS styling) was the 'NodeJS - complete guide' course on udemy by Maximilian Schwarzmüller:
 https://www.udemy.com/course/nodejs-the-complete-guide/
