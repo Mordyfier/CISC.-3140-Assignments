@@ -3,17 +3,6 @@
 ### Creating a server; Creating a Web Page and Deployment
  ______________________________________
  
-
-## Note: At this point, the backend and frontend of this webapp are **_not_** decoupled. However, I plan (current semester permitting) to improve on this app, by: 
-* ### adding poster images to the movie cards 
-* ### most likely switching the database to MongoDB (primarily in order to explore non-relational database management, but also because I think it works better for my use here - particularly with genres management)
-* ### moving the deployment to AWS 
-* ### and, last but certainly not least, exploring React.js enough to reformat this project into a Single Page App utilizing [the API](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.2) (or - probably - a better one, also utilizing mongoDB) I wrote for a different assignment. 
-
-## The progress of this process will be documented in a dedicated repository [here](https://github.com/Mordyfier/moviedb).
- 
- ______________________________________
- 
 ## Web App description
 
 This web app was created for the purpose of a CISC 3140. - Design & Implementation of Large Scale Web Applications at Brooklyn College. It is effectively a translation of the small [MovieLens](https://grouplens.org/datasets/movielens/latest/) dataset into a visual catalogue of films which serves the information in the dataset at a glance rather than having to navigate the .csv files. 
@@ -24,6 +13,16 @@ The app, along with its database is deployed to Heroku at
 ## https://moviedb-3140.herokuapp.com/
 
 ___________
+
+## Note: At this point, the backend and frontend of this webapp are **_not_** decoupled. However, I plan (current semester permitting) to improve on this app, by: 
+* ### Adding poster images to the movie cards 
+* ### Most likely switching the database to MongoDB (primarily in order to explore non-relational database management, but also because I think it works better for my use here - particularly with genres management)
+* ### Moving the deployment to AWS 
+* ### And, last but certainly not least, exploring React.js enough to reformat this project into a Single Page App utilizing [the API](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.2) (or - probably - a better one, also utilizing mongoDB) I wrote for a different assignment. 
+
+## The progress of this process will be documented in a dedicated repository [here](https://github.com/Mordyfier/moviedb).
+ 
+______________________________________
 
 ## Functionality sample:
 ![gif](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.3/assets/test.gif)
