@@ -12,16 +12,6 @@ The below Heroku-deployed app consists of a Node.js server coupled with Express.
 The app, along with its database is deployed to Heroku at 
 ## https://moviedb-3140.herokuapp.com/
 
-___________
-
-## Note: At this point, the backend and frontend of this webapp are **_not_** decoupled. However, I plan (current semester permitting) to improve on this app, by: 
-* ### Adding poster images to the movie cards 
-* ### Most likely switching the database to MongoDB (primarily in order to explore non-relational database management, but also because I think it works better for my use here - particularly with genres management)
-* ### Moving the deployment to AWS 
-* ### And, last but certainly not least, exploring React.js enough to reformat this project into a Single Page App utilizing [the API](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.2) (or - probably - a better one, also utilizing mongoDB) I wrote for a different assignment. 
-
-## The progress of this process will be documented in a dedicated repository [here](https://github.com/Mordyfier/moviedb).
- 
 ______________________________________
 
 ## Functionality sample:
@@ -88,3 +78,14 @@ My primary source (particularly for the CSS styling) was the 'NodeJS - complete 
 https://www.udemy.com/course/nodejs-the-complete-guide/
 
 The fields in the database have been populated with data from the [MovieLens](https://grouplens.org/datasets/movielens/latest/) small dataset, cleaned and reformatted according to my needs.
+
+___________
+
+## Note: At this point, the backend and frontend of this webapp are **_not_** decoupled. However, I plan (current semester permitting) to improve on this app, by: 
+* ### Adding poster images to the movie cards 
+* ### Most likely switching the database to MongoDB (primarily in order to explore non-relational database management, but also because I think it works better for my use here - particularly with genres management)
+* ### Moving the deployment to AWS 
+* ### And, last but certainly not least, exploring React.js enough to reformat this project into a Single Page App utilizing [the API](https://github.com/Mordyfier/CISC3140/tree/master/Lab%204.2) (or - probably - a better one, also utilizing mongoDB) I wrote for a different assignment. 
+
+## The progress of this process will be documented in a dedicated repository [here](https://github.com/Mordyfier/moviedb).
+ 
