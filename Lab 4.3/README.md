@@ -25,9 +25,9 @@ ___________
 
 ## Some technical info
 
-The database used is the same PostgreSQL database as Lab 4.1, now deployed to Heroku for use with the app through the official Heroku addon. The database is incorporated into the node server with the file [database.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/util/database.js) (The connection string was, of course, removed for the purposes of this public repo).
+The database used is the same PostgreSQL database as Lab 4.1, now deployed to Heroku for use with the app through the official Heroku addon. The database is incorporated into the node server with the file [database.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.3/Node/util/database.js) (The connection string was, of course, removed for the purposes of this public repo, though it should have been hidden as an environment variable).
 
-The movie cards are served primarily by the [movies.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.2%20and%204.3/Node/controllers/movies.js) controller. There, the database is queried depending on the request made by the user (at the moment, only fetching by movie title is available and movie images are not provided).
+The movie cards are served primarily by the [movies.js](https://github.com/Mordyfier/CISC3140/blob/master/Lab%204.3/Node/controllers/movies.js) controller. There, the database is queried depending on the request made by the user (at the moment, only fetching by movie title is available and movie images are not provided).
 
 ___________
 
