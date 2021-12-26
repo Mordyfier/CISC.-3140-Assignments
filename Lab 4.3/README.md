@@ -19,7 +19,7 @@ ______________________________________
 
 **Notes:**
 * Unlike in the image above, searching by substrings is possible, as well as searching by Genre and Year. Rating counts and average ratings are now also displayed on each movie card. 
-* No cover images are passed for the movie cards, instead a uniform "No image" image is displayed. A functionality that sources urls for movie covers could be implemented with more time. **This is currently in progress, coming soon!**
+* Now poster images for movies are displayed, scraped from IMDb using [this scraper](https://github.com/Mordyfier/moviedb/blob/master/scraper/moviedb_imdb_scraper.py).
 
 ___________
 
